@@ -26,7 +26,7 @@ export default function Hero() {
 
           {/* Start free / login CTAs hidden for now — Nestify soft launch */}
           <div className="m-btn-row" style={{ marginTop: 28 }}>
-            <a href="#cta" className="m-btn m-btn-ghost">Book a demo</a>
+            <a href="mailto:contact@glasssarthi.com" className="m-btn m-btn-ghost">Contact us</a>
           </div>
         </div>
 

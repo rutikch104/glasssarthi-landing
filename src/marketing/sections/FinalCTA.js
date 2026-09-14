@@ -36,7 +36,7 @@ export default function FinalCTA() {
           </p>
           {/* Start free / signup hidden for now — Nestify soft launch */}
           <div className="m-btn-row m-cta-actions" style={{ marginTop: 28 }}>
-            <a href="mailto:hello@glassshop.app" className="m-btn m-btn-ghost">Book a demo</a>
+            <a href="mailto:contact@glasssarthi.com" className="m-btn m-btn-ghost">Contact us</a>
           </div>
 
           <div className="m-mono m-cta-note" style={{ marginTop: 28, fontSize: 11, color: "var(--m-fg-quiet)", letterSpacing: "0.14em", textAlign: "center" }}>

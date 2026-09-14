@@ -16,8 +16,8 @@ const columns = [
   ]),
   col("Company", [
     ["About", "#top"],
-    ["Contact", "mailto:hello@glassshop.app"],
-    ["Book a demo", "#cta"],
+    ["Contact", "mailto:contact@glasssarthi.com"],
+    ["Email us", "mailto:contact@glasssarthi.com"],
   ]),
 ];
 
