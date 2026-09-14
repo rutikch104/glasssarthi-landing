@@ -172,7 +172,7 @@ export default function Features() {
                 style={{
                   minWidth: 0,
                   display: "flex",
-                  ["--step-i"]: i,
+                  "--step-i": i,
                 }}
               >
                 <FeatureCard

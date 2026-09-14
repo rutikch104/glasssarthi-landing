@@ -117,10 +117,10 @@ export default function ProductOverview() {
                   className="m-anatomy-tile"
                   role="listitem"
                   style={{
-                    ["--tile-wash"]: a.wash,
-                    ["--tile-rim"]: a.rim,
-                    ["--tile-glow"]: a.glow,
-                    ["--tile-border"]: a.border,
+                    "--tile-wash": a.wash,
+                    "--tile-rim": a.rim,
+                    "--tile-glow": a.glow,
+                    "--tile-border": a.border,
                   }}
                 >
                   <span className="m-anatomy-wash" aria-hidden="true" />
