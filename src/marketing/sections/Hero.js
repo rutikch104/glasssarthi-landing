@@ -1,5 +1,4 @@
 import CuttingPlanArt from "./CuttingPlanArt";
-import { appPath } from "../../config";
 
 export default function Hero() {
   return (
@@ -25,13 +24,8 @@ export default function Hero() {
             Track stock, cut sheets with the built-in optimizer, and issue GST invoices — from one system that speaks glass, not spreadsheets.
           </p>
 
+          {/* Start free / login CTAs hidden for now — Nestify soft launch */}
           <div className="m-btn-row" style={{ marginTop: 28 }}>
-            <a href={appPath("/register")} className="m-btn m-btn-primary">
-              Start free
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-                <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </a>
             <a href="#cta" className="m-btn m-btn-ghost">Book a demo</a>
           </div>
         </div>

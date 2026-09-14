@@ -66,14 +66,17 @@ export default function MarketingNav() {
           ))}
         </ul>
 
-        <div className="m-nav-ctas" style={{ display: "flex", gap: 8, alignItems: "center", flexShrink: 0 }}>
-          <a href={appPath("/login")} className="m-nav-login" style={{ color: "var(--m-fg-mute)", textDecoration: "none", fontSize: 14, fontWeight: 600, padding: "8px 10px" }}>
-            Log in
-          </a>
-          <a href={appPath("/register")} className="m-btn m-btn-primary m-nav-cta-primary" style={{ height: 40, padding: "0 16px", fontSize: 14, display: "inline-flex", alignItems: "center" }}>
-            Get started
-          </a>
-        </div>
+        {/* Login / Get started hidden for now — Nestify soft launch */}
+        {false && (
+          <div className="m-nav-ctas" style={{ display: "flex", gap: 8, alignItems: "center", flexShrink: 0 }}>
+            <a href={appPath("/login")} className="m-nav-login" style={{ color: "var(--m-fg-mute)", textDecoration: "none", fontSize: 14, fontWeight: 600, padding: "8px 10px" }}>
+              Log in
+            </a>
+            <a href={appPath("/register")} className="m-btn m-btn-primary m-nav-cta-primary" style={{ height: 40, padding: "0 16px", fontSize: 14, display: "inline-flex", alignItems: "center" }}>
+              Get started
+            </a>
+          </div>
+        )}
       </div>
     </nav>
   );

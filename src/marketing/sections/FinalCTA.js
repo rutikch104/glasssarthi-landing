@@ -1,5 +1,3 @@
-import { appPath } from "../../config";
-
 export default function FinalCTA() {
   return (
     <section id="cta" aria-labelledby="cta-title">
@@ -36,13 +34,8 @@ export default function FinalCTA() {
           <p style={{ margin: "16px auto 0", maxWidth: 560, textAlign: "center", color: "var(--m-fg-mute)", fontSize: 16, lineHeight: 1.55 }}>
             Register your shop in under a minute. Add stock, run a cutting plan, and issue a GST invoice today.
           </p>
+          {/* Start free / signup hidden for now — Nestify soft launch */}
           <div className="m-btn-row m-cta-actions" style={{ marginTop: 28 }}>
-            <a href={appPath("/register")} className="m-btn m-btn-primary">
-              Start free
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-                <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </a>
             <a href="mailto:hello@glassshop.app" className="m-btn m-btn-ghost">Book a demo</a>
           </div>
 
